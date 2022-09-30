@@ -1,3 +1,4 @@
+/* this is a universal selector*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* this class will apply to the main header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,17 @@ body {
     color: #ffffff;
 }
 
+/* this class sets criteria for the h1 tag*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* this class specifically changes the color of the words seo in the h1 header */
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* renamed div to navigation */
+/* (renamed div to nav) this class sets criteria for the navigation menu */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +35,29 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* renamed div to navigation */
+/* (renamed div to nav) this class sets criteria for the ul tag */
 .header nav ul {
     list-style-type: none;
 }
 
+/* (renamed div to nav) this class sets criteria or the li elements inside the ul tag */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* this sets criteria for the anchor tag */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* this sets criteria for the paragraph tag */
 p {
     font-size: 16px;
 }
 
+/* sets criteria for the background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +67,26 @@ p {
     background-position: center;
 }
 
+/* aligns text in main sections */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* aligns text in main sections */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* ensures content in main section occupies only 75% of screen */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* sets criteria for benefits asides */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,6 +146,7 @@ p {
     max-width: 150px;
 }
 
+/* sets criteria for first article */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +156,7 @@ p {
     color: #ffffff;
 }
 
+/* sets criteria for second article */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +166,7 @@ p {
     color: #ffffff;
 }
 
+/* sets criteria for third article */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +176,40 @@ p {
     color: #ffffff;
 }
 
+/* sets image size for first article */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* sets image size for second article */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* sets image size for third article */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* sets margin and font size for first image */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* sets margin and font size for second image */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* sets margin and font size for third image */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* sets criteria for footer element */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +217,7 @@ p {
     text-align: center;
 }
 
+/* sets footer font size */
 .footer h2 {
     font-size: 20px;
 }

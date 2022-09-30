@@ -1,6 +1,7 @@
 # semantic-html-refactor
 
 ![](https://img.shields.io/badge/CSS-blue.svg)
+![](https://img.shields.io/badge/HTML-orange.svg)
 
 ## Table of Contents
 * [Description](#description)
@@ -10,8 +11,7 @@
 * [Contact](#contact)
 
 ## Description
- As a UW coding bootcamp student it is my motivation to better my understanding of html and css code in prepartion for my new career! 
-I built this project in order to learn how to refactor html code to meet accesability requirements . As a result, I've learned how to better organize html code to be semantically meaningful.
+ As a University of Washington Coding Boot Camp student, it is my motivation to better my understanding of HTML and CSS code in preparation for my new career. Therefore, I've built this project in order to learn how to refactor html code to be semantically meaningful. As a result, I've also learned how to better organize my code to meet important accesability requirements.
 
 ## Photos
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](project-screenshot.png)
