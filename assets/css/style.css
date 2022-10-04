@@ -1,15 +1,15 @@
-/* this is a universal selector */
+/* universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* sets the background color */ 
+/* sets background color */ 
 body {
     background-color: #d9dcd6;
 }
 
-/* this class will apply to the main header */
+/* applies to main header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,7 +17,7 @@ body {
     color: #ffffff;
 }
 
-/* this class sets criteria for the h1 tag */
+/* sets h1 tag criteria  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -27,7 +27,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* this class sets criteria for the navigation menu */
+/* sets navigation menu criteria */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,29 +35,29 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* this class sets criteria for the ul tag */
+/* sets ul tag criteria */
 .header nav ul {
     list-style-type: none;
 }
 
-/* this class sets criteria or the li elements inside the ul tag */
+/* sets li  tag criteria */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* sets criteria for the anchor tag */
+/* sets anchor tag criteria */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* sets criteria for the paragraph tag */
+/* sets paragraph tag criteria */
 p {
     font-size: 16px;
 }
 
-/* sets criteria for the background image */
+/* sets background image criteria */
 .hero {
     height: 800px;
     width: 100%;
@@ -86,7 +86,7 @@ p {
     margin-left: 20px;
 }
 
-/* sets criteria for benefits asides */
+/* sets benefits asides criteria */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -98,13 +98,13 @@ p {
     background-color: #2589bd;
 }
 
-/* sets bottom margin and color for benefit class */
+/* sets benefit class bottom margin and color */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* sets bottom margin and text placement for benefit class h3 */
+/* sets benefit h3 class bottom margin and text placement */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -127,18 +127,18 @@ p {
     color: #ffffff;
 }
 
-/* sets image size for first article */
+/* sets first article image size */
 .article-class img {
     max-height: 200px;
 }
 
-/* sets margin and font size for first image */
+/* sets first image margin and font size */
 .article-class h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* sets criteria for footer element */
+/* sets footer element criteria */
 .footer {
     padding: 30px;
     clear: both;
