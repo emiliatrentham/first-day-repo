@@ -1,10 +1,10 @@
-/* this is a universal selector*/
+/* this is a universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* this sets the backgorund color */ 
+/* sets the background color */ 
 body {
     background-color: #d9dcd6;
 }
@@ -17,7 +17,7 @@ body {
     color: #ffffff;
 }
 
-/* this class sets criteria for the h1 tag*/
+/* this class sets criteria for the h1 tag */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -27,7 +27,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* (renamed div to nav) this class sets criteria for the navigation menu */
+/* this class sets criteria for the navigation menu */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,24 +35,24 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* (renamed div to nav) this class sets criteria for the ul tag */
+/* this class sets criteria for the ul tag */
 .header nav ul {
     list-style-type: none;
 }
 
-/* (renamed div to nav) this class sets criteria or the li elements inside the ul tag */
+/* this class sets criteria or the li elements inside the ul tag */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* this sets criteria for the anchor tag */
+/* sets criteria for the anchor tag */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* this sets criteria for the paragraph tag */
+/* sets criteria for the paragraph tag */
 p {
     font-size: 16px;
 }
@@ -117,7 +117,7 @@ p {
     max-width: 150px;
 }
 
-/*styles article class */
+/* styles article class */
 .article-class {
     margin-bottom: 20px;
     padding: 50px;
