@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
 }
-
+/* this sets the backgorund color */ 
 body {
     background-color: #d9dcd6;
 }
@@ -98,76 +98,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* sets bottom margin and color for benefit class */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* sets bottom margin and text placement for benefit class h3 */
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* styles benefit class images */ 
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* sets criteria for first article */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* sets criteria for second article */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* sets criteria for third article */
-.social-media-marketing {
+/*styles article class */
+.article-class {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -177,34 +128,12 @@ p {
 }
 
 /* sets image size for first article */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-/* sets image size for second article */
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/* sets image size for third article */
-.social-media-marketing img {
+.article-class img {
     max-height: 200px;
 }
 
 /* sets margin and font size for first image */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* sets margin and font size for second image */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* sets margin and font size for third image */
-.social-media-marketing h2 {
+.article-class h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
